@@ -1,0 +1,10 @@
+^C:\FILIPPPPROJECTS\RFURNACE\FURNACE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake42\bin\cmake.exe" -SC:/filipppProjects/rfurnace/furnace -BC:/filipppProjects/rfurnace/furnace/build --check-stamp-file C:/filipppProjects/rfurnace/furnace/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\FILIPPPPROJECTS\RFURNACE\FURNACE\BUILD\CMAKEFILES\6EE2AD1A20A80BD15AE73A9EEBAC4F9A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake42\bin\cmake.exe" -SC:/filipppProjects/rfurnace/furnace -BC:/filipppProjects/rfurnace/furnace/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/filipppProjects/rfurnace/furnace/build/furnace.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
