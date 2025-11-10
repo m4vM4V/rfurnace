@@ -11,9 +11,17 @@ git clone https://github.com/m4vM4V/rfurnace.git --recursive
 ```
 cmake -B build
 ```
--  or delete the build folder and create the folder in cmd using
+or delete the build folder and create the folder in cmd using
 ```
 mkdir build
+```
+and write:
+```
+cd build
+```
+and also:
+```
+cmake ..
 ```
 - open in Visual Studio and build it.
 
