@@ -3,8 +3,18 @@ a build of Furnace (test version, i wanted to make a fork but i needed to create
 
 # if you wanna compile the RFurnace, that's what you may need to do:
 
-- clone with the git first: **git clone https://github.com/m4vM4V/rfurnace.git --recursive**
-- open the command prompt in the furnace folder and write this (you need CMake to do it): **cmake -B build** or delete the build folder and create the folder in cmd using **mkdir build**
+- clone with the git first:
+```
+git clone https://github.com/m4vM4V/rfurnace.git --recursive
+```
+- open the command prompt in the furnace folder and write this (you need CMake to do it):
+```
+cmake -B build
+```
+-  or delete the build folder and create the folder in cmd using
+```
+mkdir build
+```
 - open in Visual Studio and build it.
 
 and done!
